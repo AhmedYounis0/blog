@@ -52,7 +52,7 @@
                                 </ul>
                             </div>
                             <div class="details mt-20">
-                                <a href="blog-single.html"><h3>{{ $blog->name }}</h3></a>
+                                <a href="{{ route("blogs.show",['blog'=> $blog]) }}"><h3>{{ $blog->name }}</h3></a>
                                 <p>{{ Str::limit($blog->description,250) }}</p>
                                 <a class="button" href="{{ route("blogs.show",['blog'=> $blog]) }}">Read More <i class="ti-arrow-right"></i></a>
                             </div>

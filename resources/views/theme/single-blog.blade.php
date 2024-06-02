@@ -9,7 +9,7 @@
             <div class="col-lg-8">
                 <div class="main_blog_details">
                     <img class="img-fluid" src="{{ asset("storage/blogs/$blog->image") }}" alt="">
-                    <a href="#"><h4>{{ $blog->name }}</h4></a>
+                    <h4>{{ $blog->name }}</h4>
                     <div class="user_details">
                         <div class="float-right mt-sm-0 mt-3">
                             <div class="media">
